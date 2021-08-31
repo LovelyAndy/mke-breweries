@@ -88,7 +88,7 @@ export default {
     }
   },
   components: { Pagination },
-  //dynamically creating a new queury to the server, becasuse there's no way to get ALL of the city names since the API only allows up to 50 in one call. So I limited it to a few breweries.
+  //dynamically creating a new query to the server, becasuse there's no way to get ALL of the city names since the API only allows up to 50 in one call. So I limited it to a few breweries.
   // add pagination****** (make it set a variable that gets set as a query param) -- page
   // The offset or page of breweries to return.
   methods: {
